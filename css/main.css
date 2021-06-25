@@ -109,6 +109,12 @@
     color: #e2e3ed;
     text-align: left;
   }
+  img{
+    width: 100%;
+  }
+  figure{
+    margin: 0;
+  }
    
   ul, 
   ol {
@@ -170,6 +176,13 @@
     align-items: center;
     flex-flow: row wrap;
   }
+  header figure{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   
   .header-divider {
     background: #3a3a3a; 
@@ -187,12 +200,14 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    
   }
   
   header nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 0;
   }
   
   header nav ul li {
@@ -241,6 +256,10 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url(../img/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
   }
   
   .hero-area h1 {
@@ -292,6 +311,9 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/features-image.jpg');
+    background-size: cover;
+    background-position: center;
   }
   
   .features h2 {
@@ -301,6 +323,7 @@
   .features article {
     width: 63%;
     margin: 30px 0;
+    padding-left: 15%;
   }
   
   .features .features-items {
@@ -323,7 +346,9 @@
     justify-content: center;
     flex-flow: row wrap;
   }
-  
+  .reviews figure{
+    margin: 0;
+  }
   .reviews h2 {
     margin-bottom: 40px;
     line-height: 1;
@@ -371,7 +396,7 @@
   }
   
   .faq .content-wrapper {
-    margin: 50px 0 0 0;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -532,6 +557,9 @@
       line-height: 1;
       margin: 0;
   }
+  .hero-area {
+    min-height: 600px;
+  }
   
     /* Aside */
     aside .content-wrapper {
@@ -575,6 +603,7 @@
       width: 85%;
     }
   
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -692,9 +721,11 @@
     /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
   }
-  
+  .hero-area img{
+    height: auto;
+  }
     /* Aside */
     aside .content-wrapper {
       justify-content: space-around;
@@ -728,6 +759,7 @@
     .reviews article div {
       width: 42%;
     }
+
   
     footer h4 {
       font-size: 1.875em;
