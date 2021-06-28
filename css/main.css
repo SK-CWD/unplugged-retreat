@@ -264,7 +264,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url(../img/hero-image.jpg);
+    background: url(../img/hero-image-desktop.jpg);
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -781,9 +781,7 @@
       font-size: 3.75em;
       width: 80%;
   }
-  .hero-area img{
-    background-size: cover;
-  }
+  
     /* Aside */
     aside .content-wrapper {
       justify-content: space-around;
