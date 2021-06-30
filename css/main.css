@@ -264,7 +264,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    background: url(../img/hero-image-desktop.jpg);
+   /* background: url(../img/hero-image-desktop.jpg);*/
     background-size: cover;
     background-position: center;
     min-height: 500px;
@@ -770,7 +770,8 @@
        background-image: url("../img/hero-image-desktop.jpg");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: cover;
+      padding-bottom: 9%;
     }
     .content-wrapper {
       max-width: 960px;
